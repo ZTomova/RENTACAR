@@ -24,14 +24,13 @@
 		
 		<div class="small-nav">
 			<a href="index.php">Dashboard</a>
-			<span>&gt;</span>
+			
 			Add New Vehicles
 		</div>
 		
 		<br />
 		
 		<div id="main">
-			<div class="cl">&nbsp;</div>
 			
 			<div id="content">
 				
@@ -94,10 +93,7 @@
 													VALUES ('$image','$car_name','$car_type','$rent_cost','$capacity','Available')";
 								$res = $conn->query($qr);
 								if($res === TRUE){
-									echo "<script type = \"text/javascript\">
-											alert(\"Vehicle Succesfully Added\");
-											window.location = (\"add_vehicles.php\")
-											</script>";
+									echo "Vehicle Succesfully Added";
 									}
 								}
 								else 'Failed';
@@ -117,7 +113,7 @@
 					
 					<div class="box-content">
 						<a href="add_vehicles.php" class="add-button"><span>View Our Vehicles</span></a>
-						<div class="cl">&nbsp;</div>
+						
 						
 						<p class="select-all"><input type="checkbox" class="checkbox" /><label>select all</label></p>
 						<p><a href="#">Delete Selected</a></p>
@@ -140,7 +136,7 @@
 				</div>
 			</div>
 			
-			<div class="cl">&nbsp;</div>			
+					
 		</div>
 	</div>
 </div>
