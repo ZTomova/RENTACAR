@@ -24,14 +24,14 @@
 		
 		<div class="small-nav">
 			<a href="index.php">Dashboard</a>
-			<span>&gt;</span>
+			
 			Vehicle Management
 		</div>
 		
 		<br />
 		
 		<div id="main">
-			<div class="cl">&nbsp;</div>
+			
 			
 			<div id="content">
 				
@@ -74,21 +74,6 @@
 						</table>
 						
 						
-						<div class="pagging">
-							<div class="left">Showing 1-12 of 44</div>
-							<div class="right">
-								<a href="#">Previous</a>
-								<a href="#">1</a>
-								<a href="#">2</a>
-								<a href="#">3</a>
-								<a href="#">4</a>
-								<a href="#">245</a>
-								<span>...</span>
-								<a href="#">Next</a>
-								<a href="#">View all</a>
-							</div>
-						</div>
-						
 						
 					</div>
 					<h2><input type="submit" onclick="window.print()" value="Print Here" /></h2>
@@ -113,7 +98,7 @@
 					
 					<div class="box-content">
 						<a href="add_cars.php" class="add-button"><span>Add new Vehicles</span></a>
-						<div class="cl">&nbsp;</div>
+						
 						
 						<p class="select-all"><input type="checkbox" class="checkbox" /><label>select all</label></p>
 						<p><a href="#">Delete Selected</a></p>
