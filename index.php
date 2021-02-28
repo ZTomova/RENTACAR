@@ -40,7 +40,7 @@
 					<span class="price"><?php echo 'BGN.'.$rws['rent_cost'];?></span>
 					<div class="property_details">
 						<h1>
-							<a href="book_car.php?id=<?php echo $rws['car_id'] ?>"><?php echo 'Car Make>'.$rws['car_type'];?></a>
+							<a href="book_car.php?id=<?php echo $rws['car_id'] ?>"><?php echo 'Car Brand>'.$rws['car_type'];?></a>
 						</h1>
 						<h2>Car Name/Model: <span class="property_size"><?php echo $rws['car_name'];?></span></h2>
 					</div>
